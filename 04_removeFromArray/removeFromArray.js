@@ -5,6 +5,7 @@ const removeFromArray = function(array, ...elements) {
             newArray.push(array[i]);
         }
     }
+    
     return newArray;
 };
 

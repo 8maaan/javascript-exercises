@@ -1,6 +1,7 @@
 const repeatString = function(string, num) {
     let repeatedString = "";
-
+    
+    //Check if negative
     if(num < 0){
         return "ERROR";
     }
@@ -9,7 +10,7 @@ const repeatString = function(string, num) {
         repeatedString += string;
     }
 
-    return repeatedString;
+    return repeatedString; 
 
 };
 

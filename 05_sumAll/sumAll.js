@@ -3,12 +3,12 @@ const sumAll = function(start, end) {
     if (start < 0 || end < 0 || typeof start !== "number" || typeof end !== "number") {
         return "ERROR";
     }
-    
+     
     //Swap start and end if end > start
     if (start > end){
         let temp = end;
         end = start;
-        start = temp;
+        start = temp; 
     }
     
     // Calculate the sum of integers in the range
@@ -17,6 +17,7 @@ const sumAll = function(start, end) {
     }
 
     return sum;
+    
 };
 
 // Do not edit below this line
